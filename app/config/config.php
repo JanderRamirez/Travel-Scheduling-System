@@ -80,7 +80,8 @@ $config['ENVIRONMENT']             = 'development';
 | WARNING: You MUST set this value!
 |
 */
-$config['base_url'] 				= '';
+$config['base_url'] 				= 'http://localhost/lavasched/';
+// $config['base_url'] 				= 'http://'.$_SERVER['REMOTE_ADDR'].'/lavasched/';
 
 /*
 |--------------------------------------------------------------------------
@@ -91,7 +92,7 @@ $config['base_url'] 				= '';
 | variable to blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -155,7 +156,7 @@ $config['charset']					= 'UTF-8';
 | This config will be used in the Router Class inside kernel.
 |
 */
-$config['default_controller'] 		= 'Welcome';
+$config['default_controller'] 		= 'Main';
 $config['default_method'] 			= 'index';
 
 /*
